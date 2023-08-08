@@ -6,7 +6,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def hello():
-    return "hello danish"
+    return "hello Sukhman"
 
 
 @app.route('/get_location_names', methods=['GET'])
